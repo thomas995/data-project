@@ -28,3 +28,7 @@ An example of a response would be:
     ```json
     [ {"price": 20000, "model": "Skoda", ...}, {...}, ...]
     ```
+    
+    int multiply(int one, int two) {
+    return one * two;
+    }
