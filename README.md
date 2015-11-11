@@ -60,13 +60,21 @@ Fingal | Balbriggan Garda Station
 Fingal | Skerries
 Fingal | Lusk Garda Station
 => And so on until all the stations from *Fingal* have had their *name* displayed. If only Fingal was put into the URL then all the data for Fingal would be outputted. 
-If you wanted to output data from two different tables, such as Phone and Name, you would have the URL as: *http://GardaStationsAPI.com/Fingal/Name+PhoneNumber*
+If you wanted to output data from *two different table*s, such as *Phone* and *Name*, you would have the URL as: *http://GardaStationsAPI.com/Fingal/Name&PhoneNumber*.
 
 County | Name | Phone Number
 ------------ | ------------- | -------------
 Fingal | Balbriggan Garda Station | +353 1 8020510
 Fingal | Skerries | +353 1 8491211
 Fingal | Lusk Garda Station | +353 1 8437222
+=> And so on until all the values are outputted just like the first example. You can do this with the rest of the Field values.
+If you wanted only a certain amount values to be outputted you can change the URL to the following:
+*http://GardaStationsAPI.com/Fingal/Opening+Hours/4*.
 
-
-
+County | Phone Number
+------------ | -------------
+Fingal | Open 24hrs
+Fingal | Closes at 9pm
+Fingal | Closes at 9pm
+Fingal | Closes at 9pm
+=> And stops outputting the results for the "Opening Hours" after the fourth one is shown. This can be done with all the values on the table.
