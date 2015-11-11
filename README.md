@@ -8,7 +8,7 @@ This API will show the details on the Garda stations in the Fingal County Counci
 ## About the data
 This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Garda Stations*](https://data.gov.ie/dataset/garda-stations).
 The CSV file contains 19 rows, the first being a header row with the names of each field.
-There are fifteen values on each line, which are as follows: 
+There are 15 values on each line, which are as follows: 
 
 Field | Description
 ------------ | -------------
@@ -18,10 +18,10 @@ Address2 |The second address for the garda station.
 Address3 |  The third address for the garda station.
 Phone | the phone number for the garda station.
 Website | the website that a user can access to get information on the station.
-Divison | Where the garda divison is located
-Divison HQ | Which divison the garda station belongs to.
-Divisonal HQ Phone | Phone number for the specific divison phone number.
-District | Which district the station belongs to
+Divison | Where the garda divison is located.
+Divison HQ | Where the headquarters for the divison is located.
+Divisonal HQ Phone | Phone number for the specific divison.
+District | Which district the station belongs to.
 District HQ | the location of the headquarters for the district the station is in. 
 District HQ Phone | the phone number for the HQ of the stations.
 Opening Hours | The hours the police station is open to the public for.
@@ -70,7 +70,7 @@ Fingal | Skerries | +353 1 8491211
 Fingal | Lusk Garda Station | +353 1 8437222
 => And so on until all the values are outputted just like the first example. You can do this with the rest of the Field values. The "&" symbol allows the user looking for the files to combine the results so that the contents of both tables are outputted.
 
-If you wanted only a certain amount values to be outputted you can change the URL to the following:
+If you only wanted a certain amount values to be outputted you can change the URL to the following:
 *http://GardaStationsAPI.com/Fingal/Opening+Hours/6*.
 
 County | Opening Hours
@@ -84,7 +84,7 @@ Fingal | Closes at 9pm
 
 => And stops outputting the results for the "Opening Hours" after the fourth one is shown. This can be done with all the values on the table.
 
-## Codes that may appear in Web Page when searching the datasets:
+## Codes that may appear in the Web Page when searching the datasets:
 Number | Meaning
 ------------ | -------------
 200 | OK  
