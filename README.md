@@ -49,4 +49,24 @@ Long | the longitude of where the station is.
    "Long": "6.1069616104728",
 }
 ]
-```
+``` 
+## Accessing certain parts of the files using HTTP and JSON
+Using the websites URL will bring you to the page and show you all the information. By using keywords after the ".com" in the URL, you can list out the Name of the Garda Station in Fingal. It looks something like this: 
+*http://GardaStationsAPI.com/Fingal/Name*
+
+County | Name
+------------ | -------------
+Fingal | Balbriggan Garda Station
+Fingal | Skerries
+Fingal | Lusk Garda Station
+=> And so on until all the stations from *Fingal* have had their *name* displayed. If only Fingal was put into the URL then all the data for Fingal would be outputted. 
+If you wanted to output data from two different tables, such as Phone and Name, you would have the URL as: *http://GardaStationsAPI.com/Fingal/Name+PhoneNumber*
+
+County | Name | Phone Number
+------------ | ------------- | -------------
+Fingal | Balbriggan Garda Station | +353 1 8020510
+Fingal | Skerries | +353 1 8491211
+Fingal | Lusk Garda Station | +353 1 8437222
+
+
+
