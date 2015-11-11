@@ -3,10 +3,10 @@
 
 ## Introduction 
 
-This API will show the details on the Garda stations found in County Fingal with the data being recieved from https://data.gov.ie/dataset/garda-stations.
+This API will show the details on the Garda stations in the Fingal County Council. 
 
 ## About the data
-This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*insert page name*](insert url).
+This dataset was received in Comma Separated Values (CSV) format, and was downloaded from [*Garda Stations*](https://data.gov.ie/dataset/garda-stations).
 The CSV file contains 19 rows, the first being a header row with the names of each field.
 There are six values on each line, which are as follows:
   - **Name**: the name of the garda station
